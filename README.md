@@ -1,9 +1,5 @@
-# GIS 2023 - Politecnico di Milano
-Repository for the Web Development part of the GIS lessons 2023 - 2024.
-
-The contents of this repository are entirely for learning purposes. All contents and code is completely open and available and based on open-source software.
-
-Students are encouraged to fork and and modify this template as much as they want.
+# GIS PROJECT 2023 - Politecnico di Milano
+Repository for the gis project 
 
 ## Installing
 Clone the repository using the command 
