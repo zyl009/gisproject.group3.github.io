@@ -1,0 +1,41 @@
+$datestamp
+[1] "2023-05-30 10:57:57 CEST"
+
+$model.obj
+
+Call:
+ randomForest(x = qdata.x, y = qdata.y, ntree = 500, mtry = 3,      replace = TRUE, importance = TRUE, proximity = FALSE) 
+               Type of random forest: regression
+                     Number of trees: 500
+No. of variables tried at each split: 3
+
+          Mean of squared residuals: 0.1317629
+                    % Var explained: 47.29
+
+$folder
+[1] "C:/Users/Moldir/Desktop/GIS/output_2"
+
+$MODELfn
+[1] "Susceptibility_Map"
+
+$rastLUTfn
+[1] "C:/Users/Moldir/Desktop/GIS/output_2/rasterLUT.csv"
+
+$na.action
+[1] "na.omit"
+
+$na.value
+[1] -9999
+
+$keep.predictor.brick
+[1] FALSE
+
+$map.sd
+[1] TRUE
+
+$OUTPUTfn
+[1] "C:/Users/Moldir/Desktop/GIS/output_2/Susceptibility_Map_map.img"
+
+$quantiles
+NULL
+
