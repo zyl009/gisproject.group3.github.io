@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html> 
+	<head>		  
+		<title>REPORT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/libraries/bootstrap-5.0.2-dist/css/bootstrap.css">
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/custom-styles.css" />
+	</head>
+	<head>
+		<style>
+			body {
+			  background-image: url('../images/background_picture/pexels-photo-1831234.jpg');
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			}
+		  </style>
+	  </head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html">GIS PROJECT</a></h1>
+					<nav id="nav"> 
+						<ul>
+							<li class="current"><a href="../index.html">HOME</a></li>
+							<li class="current"><a href="webgis.html">WebGIS</a></li>
+							<li class="current"><a href="report.html">report</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-globe"></span>
+						<h2>OUTCOME ANALYSIS <strong></h2>
+					
+					</header>
+
+					<!-- One -->
+						<div class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+									<div>
+										<header>
+											<h3>Error matrix</h3>
+										</header>
+										<a href="#" class="image featured"><img src="../images/Error_Matrix.jpg" alt="" /></a>
+										<p>The initial overall accuracy of the classification method trained with R. We feed our model by 1000 points from which we used 700 points for training and 300 for testing our model.
+											The accuracy of the classification method can be calculated by summing the number of true positives and true negatives and dividing it by the total number of data points.
+											In landslide assessments, an error matrix, also known as a confusion matrix or a contingency table, is commonly used to evaluate the accuracy of a classification method. It provides a detailed breakdown of the classification results by comparing the predicted classes with the actual classes for a set of data points.</p>
+										<p>Typically, an error matrix for landslide assessments includes the following components:
+										<p>Actual Classes: This column represents the true or actual classes of the data points in the test set. In the context of landslide assessments, these classes could be labelled as "landslide" and "non-landslide" to indicate whether a point experienced a 
+											landslide event or not.
+										<p>Predicted Classes: This row represents the classes predicted by the classification method for the corresponding data points in the test set. The predicted classes are typically generated based on the trained model or algorithm.
+											Count/Number of Points: The entries in the cells of the error matrix represent the number of data points that fall into each category actual class and predicted class combination.
+											</p>
+
+										<header>
+											<h3>Population Exposure Assessment:</h3>
+										</header>
+										<a href="#" class="image featured"><img src="../images/pop_pie_chart.jpg" alt="" /></a>
+										
+										<p>Population exposure assessment is a process that aims to quantify and analyse the potential exposure of human populations to various hazards or risks. It involves identifying and characterizing the spatial distribution of population and determining their proximity or vulnerability to specific hazards or stressors. Population exposure assessment plays a crucial role in disaster risk management, public health planning, and environmental impact assessment, the key steps and considerations involved in population exposure assessment are as follow: Population data, Hazard identification, Exposure indicators, Vulnerability assessment, Risk Analysis, Visualization and Communication and Mitigation and planning.</p>
+										<h3>Error we met and the solution</h3>
+										<p>There are some errors we encountered during the implementation of the model.</p>
+										<p>1.	To ensure accurate calculations in the model, it is important to align the spatial extent and pixel size of the environmental factor layers. Having consistent extents for each layer is crucial to avoid potential errors and issues during the model calculation process.
+										<p>2.	The name of all layers or files containing the environmental factor must be the same with the name input as parameters in the R model, otherwise it will give error and the calculation process will stop.
+										<p>3.	We should set the null data value to 9999 to avoid the error causing the calculation stop.
+										<h3>Prospects</h3>
+										<p>The way and the model to get landslide susceptibility map can be applied in many other areas in the world to reduce the losses caused by the landslide. We also assume that more sample points we select, we can get higher accuracy of the results, which will be helpful to tell the risk of the landslide areas.
+
+										</p>
+
+									</div>
+								</div>
+
+						</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollgress.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
